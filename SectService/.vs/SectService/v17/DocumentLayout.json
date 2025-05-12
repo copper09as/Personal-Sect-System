@@ -1,26 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\49469\\Documents\\SectService\\SectService\\",
+  "WorkspaceRootPath": "C:\\Users\\49469\\Documents\\GitHub\\Personal-Sect-System\\SectService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\SectService.csproj|c:\\users\\49469\\documents\\sectservice\\sectservice\\sectservice\\script\\logic\\adddatamsghandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\SectService.csproj|c:\\users\\49469\\documents\\github\\personal-sect-system\\sectservice\\sectservice\\script\\db\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\SectService.csproj|solutionrelative:sectservice\\script\\db\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\SectService.csproj|c:\\users\\49469\\documents\\github\\personal-sect-system\\sectservice\\sectservice\\script\\logic\\updatedatahandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\SectService.csproj|solutionrelative:sectservice\\script\\logic\\updatedatahandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\SectService.csproj|c:\\users\\49469\\documents\\github\\personal-sect-system\\sectservice\\sectservice\\script\\proto\\msgupdatesect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\SectService.csproj|solutionrelative:sectservice\\script\\proto\\msgupdatesect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\SectService.csproj|c:\\users\\49469\\documents\\github\\personal-sect-system\\sectservice\\sectservice\\script\\logic\\adddatamsghandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\SectService.csproj|solutionrelative:sectservice\\script\\logic\\adddatamsghandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\SectService.csproj|c:\\users\\49469\\documents\\sectservice\\sectservice\\sectservice\\script\\net\\netmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\SectService.csproj|solutionrelative:sectservice\\script\\net\\netmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\SectService.csproj|c:\\users\\49469\\documents\\github\\personal-sect-system\\sectservice\\sectservice\\script\\logic\\getdatamsghandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\SectService.csproj|solutionrelative:sectservice\\script\\logic\\getdatamsghandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\SectService.csproj|c:\\users\\49469\\documents\\sectservice\\sectservice\\sectservice\\script\\stringresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\SectService.csproj|c:\\users\\49469\\documents\\github\\personal-sect-system\\sectservice\\sectservice\\script\\proto\\msggetsect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\SectService.csproj|solutionrelative:sectservice\\script\\proto\\msggetsect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\SectService.csproj|c:\\users\\49469\\documents\\github\\personal-sect-system\\sectservice\\sectservice\\data\\sectdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\SectService.csproj|solutionrelative:sectservice\\data\\sectdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\SectService.csproj|c:\\users\\49469\\documents\\github\\personal-sect-system\\sectservice\\sectservice\\script\\stringresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\SectService.csproj|solutionrelative:sectservice\\script\\stringresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\SectService.csproj|c:\\users\\49469\\documents\\sectservice\\sectservice\\sectservice\\script\\proto\\addsectmsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\SectService.csproj|solutionrelative:sectservice\\script\\proto\\addsectmsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\SectService.csproj|c:\\users\\49469\\documents\\sectservice\\sectservice\\sectservice\\script\\db\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\SectService.csproj|solutionrelative:sectservice\\script\\db\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\SectService.csproj|c:\\users\\49469\\documents\\github\\personal-sect-system\\sectservice\\sectservice\\script\\net\\netmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\SectService.csproj|solutionrelative:sectservice\\script\\net\\netmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,47 +46,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NetManager.cs",
-              "DocumentMoniker": "C:\\Users\\49469\\Documents\\SectService\\SectService\\SectService\\Script\\Net\\NetManager.cs",
-              "RelativeDocumentMoniker": "SectService\\Script\\Net\\NetManager.cs",
-              "ToolTip": "C:\\Users\\49469\\Documents\\SectService\\SectService\\SectService\\Script\\Net\\NetManager.cs",
-              "RelativeToolTip": "SectService\\Script\\Net\\NetManager.cs",
-              "ViewState": "AgIAAKgAAAAAAAAAAAAAwLQAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T13:33:45.975Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AddDataMsgHandle.cs",
-              "DocumentMoniker": "C:\\Users\\49469\\Documents\\SectService\\SectService\\SectService\\Script\\logic\\AddDataMsgHandle.cs",
-              "RelativeDocumentMoniker": "SectService\\Script\\logic\\AddDataMsgHandle.cs",
-              "ToolTip": "C:\\Users\\49469\\Documents\\SectService\\SectService\\SectService\\Script\\logic\\AddDataMsgHandle.cs",
-              "RelativeToolTip": "SectService\\Script\\logic\\AddDataMsgHandle.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAsAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T12:59:38.253Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StringResource.cs",
-              "DocumentMoniker": "C:\\Users\\49469\\Documents\\SectService\\SectService\\SectService\\Script\\StringResource.cs",
-              "RelativeDocumentMoniker": "SectService\\Script\\StringResource.cs",
-              "ToolTip": "C:\\Users\\49469\\Documents\\SectService\\SectService\\SectService\\Script\\StringResource.cs",
-              "RelativeToolTip": "SectService\\Script\\StringResource.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAswAUAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T12:48:27.133Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
@@ -81,29 +58,112 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AddSectMsg.cs",
-              "DocumentMoniker": "C:\\Users\\49469\\Documents\\SectService\\SectService\\SectService\\Script\\proto\\AddSectMsg.cs",
-              "RelativeDocumentMoniker": "SectService\\Script\\proto\\AddSectMsg.cs",
-              "ToolTip": "C:\\Users\\49469\\Documents\\SectService\\SectService\\SectService\\Script\\proto\\AddSectMsg.cs",
-              "RelativeToolTip": "SectService\\Script\\proto\\AddSectMsg.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "MsgUpdateSect.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\Personal-Sect-System\\SectService\\SectService\\Script\\proto\\MsgUpdateSect.cs",
+              "RelativeDocumentMoniker": "SectService\\Script\\proto\\MsgUpdateSect.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\Personal-Sect-System\\SectService\\SectService\\Script\\proto\\MsgUpdateSect.cs",
+              "RelativeToolTip": "SectService\\Script\\proto\\MsgUpdateSect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T12:45:59.526Z",
+              "WhenOpened": "2025-05-12T02:19:30.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UpdateDataHandle.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\Personal-Sect-System\\SectService\\SectService\\Script\\logic\\UpdateDataHandle.cs",
+              "RelativeDocumentMoniker": "SectService\\Script\\logic\\UpdateDataHandle.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\Personal-Sect-System\\SectService\\SectService\\Script\\logic\\UpdateDataHandle.cs",
+              "RelativeToolTip": "SectService\\Script\\logic\\UpdateDataHandle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T02:19:02.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DbManager.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\Personal-Sect-System\\SectService\\SectService\\Script\\Db\\DbManager.cs",
+              "RelativeDocumentMoniker": "SectService\\Script\\Db\\DbManager.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\Personal-Sect-System\\SectService\\SectService\\Script\\Db\\DbManager.cs",
+              "RelativeToolTip": "SectService\\Script\\Db\\DbManager.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAswHIAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T01:58:57.001Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DbManager.cs",
-              "DocumentMoniker": "C:\\Users\\49469\\Documents\\SectService\\SectService\\SectService\\Script\\Db\\DbManager.cs",
-              "RelativeDocumentMoniker": "SectService\\Script\\Db\\DbManager.cs",
-              "ToolTip": "C:\\Users\\49469\\Documents\\SectService\\SectService\\SectService\\Script\\Db\\DbManager.cs",
-              "RelativeToolTip": "SectService\\Script\\Db\\DbManager.cs",
-              "ViewState": "AgIAALAAAAAAAAAAAAAQwLwAAAA8AAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "SectData.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\Personal-Sect-System\\SectService\\SectService\\data\\SectData.cs",
+              "RelativeDocumentMoniker": "SectService\\data\\SectData.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\Personal-Sect-System\\SectService\\SectService\\data\\SectData.cs",
+              "RelativeToolTip": "SectService\\data\\SectData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T09:52:36.193Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T01:58:23.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetDataMsgHandle.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\Personal-Sect-System\\SectService\\SectService\\Script\\logic\\GetDataMsgHandle.cs",
+              "RelativeDocumentMoniker": "SectService\\Script\\logic\\GetDataMsgHandle.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\Personal-Sect-System\\SectService\\SectService\\Script\\logic\\GetDataMsgHandle.cs",
+              "RelativeToolTip": "SectService\\Script\\logic\\GetDataMsgHandle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T01:54:29.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MsgGetSect.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\Personal-Sect-System\\SectService\\SectService\\Script\\proto\\MsgGetSect.cs",
+              "RelativeDocumentMoniker": "SectService\\Script\\proto\\MsgGetSect.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\Personal-Sect-System\\SectService\\SectService\\Script\\proto\\MsgGetSect.cs",
+              "RelativeToolTip": "SectService\\Script\\proto\\MsgGetSect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T01:53:49.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddDataMsgHandle.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\Personal-Sect-System\\SectService\\SectService\\Script\\logic\\AddDataMsgHandle.cs",
+              "RelativeDocumentMoniker": "SectService\\Script\\logic\\AddDataMsgHandle.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\Personal-Sect-System\\SectService\\SectService\\Script\\logic\\AddDataMsgHandle.cs",
+              "RelativeToolTip": "SectService\\Script\\logic\\AddDataMsgHandle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T12:59:38.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StringResource.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\Personal-Sect-System\\SectService\\SectService\\Script\\StringResource.cs",
+              "RelativeDocumentMoniker": "SectService\\Script\\StringResource.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\Personal-Sect-System\\SectService\\SectService\\Script\\StringResource.cs",
+              "RelativeToolTip": "SectService\\Script\\StringResource.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAswBUAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T02:07:43.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NetManager.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\Personal-Sect-System\\SectService\\SectService\\Script\\Net\\NetManager.cs",
+              "RelativeDocumentMoniker": "SectService\\Script\\Net\\NetManager.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\Personal-Sect-System\\SectService\\SectService\\Script\\Net\\NetManager.cs",
+              "RelativeToolTip": "SectService\\Script\\Net\\NetManager.cs",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAAwLQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T13:33:45.975Z"
             }
           ]
         }

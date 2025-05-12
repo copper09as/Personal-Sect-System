@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SectService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df734f2c96b6400a85f44fe5bba74916ddea4056")]
 [assembly: System.Reflection.AssemblyProductAttribute("SectService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SectService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

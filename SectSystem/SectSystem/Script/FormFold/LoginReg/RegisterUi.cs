@@ -50,7 +50,7 @@ namespace SectSystem
 
         private void RegisterUi_FormClosing(object sender, FormClosingEventArgs e)
         {
-            NetManager.RemoveListenear("MsgRegister", OnMsgRegister);
+            NetManager.RemoveListenear(StringResource.msgRegister, OnMsgRegister);
             isOpen = false;
         }
         private void OnMsgRegister(MsgBase msgBase)
@@ -69,7 +69,7 @@ namespace SectSystem
         private void RegisterUi_Load(object sender, EventArgs e)
         {
             isOpen = true;
-            NetManager.AddMsgListener("MsgRegister", OnMsgRegister);
+            NetManager.AddMsgListener(StringResource.msgRegister, OnMsgRegister);
         }
 
 

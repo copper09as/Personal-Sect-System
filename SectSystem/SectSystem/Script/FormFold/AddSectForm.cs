@@ -185,14 +185,14 @@ namespace SectSystem
         }
         private void AddSectForm_FormClosing(object sender, FormClosingEventArgs e)
         {
-            NetManager.RemoveListenear("MsgAddPra", OnMsgAddPra);
-            NetManager.RemoveListenear("MsgAddSect", OnMsgAddSect);
+            NetManager.RemoveListenear(StringResource.msgAddPra, OnMsgAddPra);
+            NetManager.RemoveListenear(StringResource.msgAddSect, OnMsgAddSect);
             isOpen = false;
         }
         private void AddSectForm_Load(object sender, EventArgs e)
         {
-            NetManager.AddMsgListener("MsgAddPra", OnMsgAddPra);
-            NetManager.AddMsgListener("MsgAddSect", OnMsgAddSect);
+            NetManager.AddMsgListener(StringResource.msgAddPra, OnMsgAddPra);
+            NetManager.AddMsgListener(StringResource.msgAddSect, OnMsgAddSect);
             isOpen = true;
         }
         private void OnMsgAddSect(MsgBase msgBase)

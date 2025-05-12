@@ -7,38 +7,41 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SectSystem.Data;
 
 namespace SectSystem
 {
     public partial class ViewSectForm : Form
     {
-        public static bool isOpen;
+        public static bool isOpen;//窗口是否关闭
         public ViewSectForm()
         {
             InitializeComponent();
         }
+        #region 发送刷新ui协议
         private void DataUpdate()
         {
-            var sects = DbManager.GetSectData();
             listView.Items.Clear();
-            foreach(var item in sects)
-            {
-                ListViewItem it = new ListViewItem();
-                it.Text = item.Id.ToString();
-                it.SubItems.Add(item.Name);
-                it.SubItems.Add(item.LeaderName);
-                it.SubItems.Add(item.Man.ToString());
-                it.SubItems.Add(item.Woman.ToString());
-                it.SubItems.Add(item.Years.ToString());
-                it.SubItems.Add(item.Responsibility);
-                it.SubItems.Add(item.Tutions);
-                listView.Items.Add(it);
-            }
+            NetManager.Send(new MsgGetSect());
         }
-        private void ViewSectForm_Load(object sender, EventArgs e)
+        #endregion
+        #region 注册与注销事件
+        private void AddListener()
         {
-            NetManager.AddMsgListener("MsgDel", OnMsgDel);
+            NetManager.AddMsgListener(StringResource.msgDel, OnMsgDel);
+            NetManager.AddMsgListener(StringResource.msgGetSect, OnMsgGetSect);
             EventCenter.Instance.Subscribe(StringResource.updateFromDataBase, DataUpdate);
+        }
+        private void RemoveListener()
+        {
+            NetManager.RemoveListenear(StringResource.msgDel, OnMsgDel);
+            NetManager.RemoveListenear(StringResource.msgGetSect, OnMsgGetSect);
+            EventCenter.Instance.Unsubscribe(StringResource.updateFromDataBase, DataUpdate);
+        }
+        #endregion
+        #region 建造表格列
+        private void CreateColumns()
+        {
             listView.Columns.Add("id", 120);
             listView.Columns.Add("宗派名字", 120);
             listView.Columns.Add("掌门名字", 120);
@@ -47,20 +50,51 @@ namespace SectSystem
             listView.Columns.Add("修行时长", 120);
             listView.Columns.Add("门派职责", 120);
             listView.Columns.Add("门派课程", 1000);
+        }
+        #endregion
+        #region 窗口加载与关闭
+        private void ViewSectForm_Load(object sender, EventArgs e)
+        {
+            AddListener();
+            CreateColumns();
             DataUpdate();
             isOpen = true;
         }
         private void ViewSectForm_FormClosing(object sender, FormClosingEventArgs e)
         {
-            NetManager.RemoveListenear("MsgDel", OnMsgDel);
-            EventCenter.Instance.Unsubscribe(StringResource.updateFromDataBase, DataUpdate);
+            RemoveListener();
             isOpen = false;
         }
+        #endregion
+        #region 接收数据
+        private void OnMsgGetSect(MsgBase msgBase)
+        {
+            MsgGetSect msg = (MsgGetSect)msgBase;
+            var sects = msg.sects;
+            listView.Items.Clear();
+            foreach (var item in sects)
+            {
+                ListViewItem it = new ListViewItem();
+                it.Text = item.id.ToString();
+                it.SubItems.Add(item.name);
+                it.SubItems.Add(item.leaderName);
+                it.SubItems.Add(item.man.ToString());
+                it.SubItems.Add(item.woman.ToString());
+                it.SubItems.Add(item.years.ToString());
+                it.SubItems.Add(item.responsibility);
+                it.SubItems.Add(item.tutions);
+                listView.Items.Add(it);
+            }
+        }
+        #endregion
+        #region 删除数据显示
         private void OnMsgDel(MsgBase msgBase)
         {
             MessageBox.Show("删除成功"); 
             DataUpdate();
         }
+        #endregion
+        #region 删除数据按钮
         private void deleteBtn_Click(object sender, EventArgs e)
         {
             if (ChangeSectForm.isOpen)
@@ -94,6 +128,8 @@ namespace SectSystem
                 MessageBox.Show("删除已取消。", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
+        #endregion
+        #region 进入修改数据界面
         private void changeBtn_Click(object sender, EventArgs e)
         {
             if (ChangeSectForm.isOpen)
@@ -111,5 +147,6 @@ namespace SectSystem
             changeSect.MdiParent = this.MdiParent;
             changeSect.Show();
         }
+        #endregion
     }
 }

@@ -19,6 +19,6 @@ public static class StringResource
     public static string UpdateSectDataSql(SectData sectData)
     =>
     string.Format("update sectdata set name = '{0}',leadername = '{1}',responsibility = '{2}',tutions = '{3}',year = '{4}' where sectid = '{5}';", 
-    sectData.Name, sectData.LeaderName, sectData.Responsibility, sectData.Tutions, sectData.Years,sectData.Id);
+    sectData.name, sectData.leaderName, sectData.responsibility, sectData.tutions, sectData.years,sectData.id);
 }
 

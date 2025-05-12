@@ -161,14 +161,14 @@ public class DbManager
             {
                 SectData sect = new SectData()
                 {
-                    Id = int.Parse(dataReader["sectid"].ToString()),
-                    Name = dataReader["name"].ToString(),
-                    LeaderName = dataReader["leadername"].ToString(),
-                    Man = int.Parse(dataReader["man"].ToString()),
-                    Woman = int.Parse(dataReader["woman"].ToString()),
-                    Responsibility = dataReader["responsibility"].ToString(),
-                    Years = int.Parse(dataReader["year"].ToString()),
-                    Tutions = dataReader["tutions"].ToString()
+                    id = int.Parse(dataReader["sectid"].ToString()),
+                    name = dataReader["name"].ToString(),
+                    leaderName = dataReader["leadername"].ToString(),
+                    man = int.Parse(dataReader["man"].ToString()),
+                    woman = int.Parse(dataReader["woman"].ToString()),
+                    responsibility = dataReader["responsibility"].ToString(),
+                    years = int.Parse(dataReader["year"].ToString()),
+                    tutions = dataReader["tutions"].ToString()
                 };
                 sects.Add(sect);
             }

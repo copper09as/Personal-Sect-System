@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZYLYTlsZFGk=",
+  "dgSpecHash": "SKsyWzDaVR8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\49469\\Documents\\SectService\\SectService\\SectService\\SectService.csproj",
+  "projectFilePath": "C:\\Users\\49469\\Documents\\GitHub\\Personal-Sect-System\\SectService\\SectService\\SectService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\49469\\.nuget\\packages\\bouncycastle.cryptography\\2.5.1\\bouncycastle.cryptography.2.5.1.nupkg.sha512",
     "C:\\Users\\49469\\.nuget\\packages\\google.protobuf\\3.30.0\\google.protobuf.3.30.0.nupkg.sha512",

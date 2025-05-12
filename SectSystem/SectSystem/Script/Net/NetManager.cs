@@ -111,7 +111,7 @@ public static class NetManager
 		{
 			Socket socket = (Socket)ar.AsyncState;
 			socket.EndConnect(ar);
-            FireEvent(NetEvent.ConnectSucc,"");
+            FireEvent(NetEvent.ConnectSucc,"连接成功");
 			isConnecting = false;
 			socket.BeginReceive(readBuff.bytes, readBuff.writeIdx, readBuff.remain, 0, ReceiveCallback, socket);
 		}

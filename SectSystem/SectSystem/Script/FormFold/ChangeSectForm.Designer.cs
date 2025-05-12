@@ -106,6 +106,7 @@
             this.years.Name = "years";
             this.years.Size = new System.Drawing.Size(100, 25);
             this.years.TabIndex = 15;
+            this.years.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.years_KeyPress);
             // 
             // label5
             // 

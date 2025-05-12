@@ -77,28 +77,46 @@ namespace SectSystem
             string tutionsJson = JsonConvert.SerializeObject(tutionsList);
             SectData sect = new SectData
             {
-                Id = int.Parse(id),
-                Name = sectName.Text,
-                Responsibility = responTxt.Text,
-                LeaderName = leaderName.Text,
-                Tutions = tutionsJson,
-                Years = yearNum
+                id = int.Parse(id),
+                name = sectName.Text,
+                responsibility = responTxt.Text,
+                leaderName = leaderName.Text,
+                tutions = tutionsJson,
+                years = yearNum
             };
-            if(DbManager.UpdateData(StringResource.UpdateSectDataSql(sect)))
+            MsgUpdateSect msg = new MsgUpdateSect();
+            msg.sect = sect;
+            NetManager.Send(msg);
+            /*if(DbManager.UpdateData(StringResource.UpdateSectDataSql(sect)))
             {
                 MessageBox.Show("修改数据成功");
                 EventCenter.Instance.Trigger(StringResource.updateFromDataBase);
-            }
+            }*/
         }
 
         private void ChangeSectForm_Load(object sender, EventArgs e)
         {
             isOpen = true;
+            NetManager.AddMsgListener(StringResource.msgUpdateSect, OnMsgUpdateSect);
+        }
+
+        private void OnMsgUpdateSect(MsgBase msgBase)
+        {
+            EventCenter.Instance.Trigger(StringResource.updateFromDataBase);
         }
 
         private void ChangeSectForm_FormClosing(object sender, FormClosingEventArgs e)
         {
             isOpen = false;
+            NetManager.RemoveListenear(StringResource.msgUpdateSect, OnMsgUpdateSect);
+        }
+
+        private void years_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+            }
         }
     }
 }

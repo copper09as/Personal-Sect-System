@@ -16,14 +16,17 @@ namespace SectSystem
 {
     public partial class Login : Form
     {
-        private SynchronizationContext _uiContext;
         public Login()
         {
             InitializeComponent();
-            NetManager.AddMsgListener("MsgLogin", OnMsgLogin);
-            _uiContext = SynchronizationContext.Current; // 保存UI线程上下文
+            NetManager.AddMsgListener(StringResource.msgLogin, OnMsgLogin);
+            NetManager.AddEventListener(NetEvent.ConnectFail, OnConnect);
+            NetManager.Connect("127.0.0.1", 8888);
         }
-
+        private void OnConnect(string err)
+        {
+            MessageBox.Show(err);
+        }
         private void LoginBtn_Click(object sender, EventArgs e)
         {
             MsgLogin msgLogin = new MsgLogin()
@@ -32,22 +35,11 @@ namespace SectSystem
                 pw = PasswordBox.Text
             };
             NetManager.Send(msgLogin);
-            /*if (DbManager.CheckPassword(AccountBox.Text, PasswordBox.Text))
-            {
-                MessageBox.Show("登录成功");
-                this.Hide();
-                InitSectSystem sect = new InitSectSystem();
-                sect.Show();
-            }
-            else
-            {
-                MessageBox.Show("账号或密码错误");
-            }*/
+
 
         }
         private void OnMsgLogin(MsgBase msgBase)
         {
-            // 确保在 UI 线程上执行
 
             MsgLogin msg = (MsgLogin)msgBase;
             if (msg.result == 0)

@@ -1598,11 +1598,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\49469\\Documents\\SectService\\SectService\\SectService\\SectService.csproj",
+      "projectUniqueName": "C:\\Users\\49469\\Documents\\GitHub\\Personal-Sect-System\\SectService\\SectService\\SectService.csproj",
       "projectName": "SectService",
-      "projectPath": "C:\\Users\\49469\\Documents\\SectService\\SectService\\SectService\\SectService.csproj",
+      "projectPath": "C:\\Users\\49469\\Documents\\GitHub\\Personal-Sect-System\\SectService\\SectService\\SectService.csproj",
       "packagesPath": "C:\\Users\\49469\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\49469\\Documents\\SectService\\SectService\\SectService\\obj\\",
+      "outputPath": "C:\\Users\\49469\\Documents\\GitHub\\Personal-Sect-System\\SectService\\SectService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

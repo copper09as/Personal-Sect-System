@@ -57,6 +57,7 @@
     <Compile Include="Script\Net\Proto\MsgAddSect.cs" />
     <Compile Include="Script\Net\ByteArray.cs" />
     <Compile Include="Script\Net\Proto\MsgDel.cs" />
+    <Compile Include="Script\Net\Proto\MsgGetSect.cs" />
     <Compile Include="Script\Net\Proto\MsgLogin.cs" />
     <Compile Include="Script\Net\Proto\MsgBase.cs" />
     <Compile Include="Script\Net\NetManager.cs" />
@@ -73,7 +74,6 @@
       <DependentUpon>ChangeSectForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Script\Data\SectData.cs" />
-    <Compile Include="Script\Db\DbManager.cs" />
     <Compile Include="EventCenter.cs" />
     <Compile Include="Script\FormFold\LoginReg\LoginUi.cs">
       <SubType>Form</SubType>
@@ -96,6 +96,7 @@
     <Compile Include="Script\FormFold\LoginReg\RegisterUi.Designer.cs">
       <DependentUpon>RegisterUi.cs</DependentUpon>
     </Compile>
+    <Compile Include="Script\Net\Proto\MsgUpdateSect.cs" />
     <Compile Include="Singleton.cs" />
     <Compile Include="StringResource.cs" />
     <Compile Include="Script\FormFold\ViewSectForm.cs">

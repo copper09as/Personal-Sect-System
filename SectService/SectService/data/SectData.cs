@@ -6,16 +6,17 @@ using System.Threading.Tasks;
 
 namespace SectSystem.Data
 {
+    [System.Serializable]
     public class SectData
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public int Man { get; set; }
-        public int Woman { get; set; }
-        public string Responsibility { get; set; }
-        public string LeaderName { get; set; }
-        public string Tutions { get; set; }
-        public int Years { get; set; }
+        public int id;
+        public string name;
+        public int man;
+        public int woman;
+        public string responsibility;
+        public string leaderName;
+        public string tutions;
+        public int years;
 
 
     }
